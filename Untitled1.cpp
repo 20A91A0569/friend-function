@@ -10,9 +10,9 @@ class sample
 			cout<<"enter x,y values:";
 			cin>>x>>y;
 			}	
-			friend void sum(sample &s);
+			friend void sum(sample s);
 };
-void sum(sample &s)
+void sum(sample s)
 {
 	cout<<"sum of x and y="<<s.x+s.y;
 }
